@@ -1,7 +1,16 @@
+import React,{useEffect} from "react";
+import {fetchData} from './store/shop/shop.actions';
+import { useDispatch } from 'react-redux'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const dispatch = useDispatch()
+
+  useEffect(()=>{
+    dispatch(fetchData())
+
+  },[])
   return (
     <div className="App">
       <header className="App-header">
