@@ -3,7 +3,7 @@ import {fetchDataFromApi} from '../../apiAccess/shopApi';
 import * as Actions from '../shop/shop.types';
 
 /**
- * Fetch WishList from API saga REST API
+ * Fetch ProductList from API saga REST API
  * @returns {IterableIterator<*>}
  */
 export function* getProductListSaga() {
