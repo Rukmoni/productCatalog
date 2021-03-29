@@ -12,15 +12,15 @@ git clone git@github.com:Rukmoni/productCatalog.git
 
 ## Client
 
-# cd productCatalog
-# yarn install
-# yarn start
+#### cd productCatalog
+####  yarn install
+####  yarn start
 
 ## Server
 
-# cd productCatalog/server
-# yarn install
-# yarn start [ server will start in port 5000 ]
+#### cd productCatalog/server
+####  yarn install
+####  yarn start [ server will start in port 5000 ]
 
 
 
