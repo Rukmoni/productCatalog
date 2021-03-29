@@ -1,0 +1,122 @@
+.productLoading {
+    width: 300px;
+    height: 500px;
+    background-color: red;
+  }
+  
+  .product {
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    margin: 10px 13px 15px 10px;
+    padding: 5px 0px;
+    width: 300px;
+    height: 450px;
+    justify-content: center;
+    background-color: white;
+    border-color:#ddd;
+    box-shadow: none;
+  }
+  
+  .productTitleContainer {
+   
+    margin: 0px 20px;
+  }
+  
+  .productName:{
+    color: #4F4F4F;
+    font-size: 18px;
+    margin: 20px 5px;
+    text-decoration: none;
+    text-decoration: none;
+
+  }
+
+ 
+  
+  .productPic {
+    height: 260px;
+    padding: 5px;
+  }
+  
+  .productPic:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .price:{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .productPrice {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.753);
+  
+    font-weight: 900;
+  }
+  
+  .productPriceOld {
+    text-decoration: line-through;
+    font-size: 18px;
+    color: #ff0000;
+  
+  }
+  
+  .productButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -10px;
+
+    
+  }
+  
+  .productButtonView {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #4F4F4F;
+    color: #4F4F4F;
+    font-weight: 100;
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin: 15px 0px 5px 0px;
+    font-size: 14px;
+    background-color: white;
+  }
+  
+  .productButtonView:hover{
+
+    color: #5b8afd;
+  }
+  
+  .productButtonBuy {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 11px 22px;
+    margin: 15px 0px 15px 0px;
+    font-size: 14px;
+  }
+  
+  .productButtonBuy:hover {
+    background-color: #5b8afd;
+  }
+  
+  .productButtonBuyIcon {
+    height: 20px;
+    margin: 0px 4px;
+  }
+  
+  
+  

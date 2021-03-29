@@ -3,6 +3,7 @@ import {fetchData} from './store/shop/shop.actions';
 import { useDispatch } from 'react-redux'
 import NavBar from './components/NavBar/index';
 import Shop from './pages/shop/shop';
+import Routes from './Routes';
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,8 +17,8 @@ function App() {
   return (
     <div className="App">
     <NavBar/>
-    <header className="App-header">
-    <Shop/>
+    <header className="App-Content">
+    <Routes/>
     </header>
   {/*     <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

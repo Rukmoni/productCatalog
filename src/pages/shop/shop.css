@@ -1,67 +1,33 @@
-.phones {
+.products {
     margin: 10px 20px 10px 20px;
     padding-top: 10px;
   }
   
   .loadingWindow {
-    display: grid;
+    display: flex;
     align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+ 
+  
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #FF9800; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    align-items: center;
     justify-content: center;
   }
   
-  .LoadingWindowTextContainer {
-    margin: 20px 0px 0px 0px;
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
-  
-  .LoadingWindowText {
-    font-weight: 100;
-    font-size: 18px;
-  }
-  
-  .circles {
-    margin-top: 50px;
-    position: relative;
-  }
-  .circle {
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    border-radius: 50%;
-    position: relative;
-    opacity: 0.9;
-  }
-  .c1 {
-    background-color: #5b8afd;
-    animation: moving 2s ease-in-out infinite;
-  }
-  .c2 {
-    background-color: #ff635c;
-    animation: moving2 2s ease-in-out infinite;
-  }
-  @keyframes moving {
-    0% {
-      transform: translateX(0);
-      z-index: 33;
-    }
-    50% {
-      transform: translateX(110px) scale(1.1);
-    }
-    100% {
-      transform: translateX(0);
-      z-index: -33;
-    }
-  }
-  @keyframes moving2 {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-110px) scale(1.1);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+
   
   .phonesTitle {
     color: rgba(0, 0, 0, 0.781);
