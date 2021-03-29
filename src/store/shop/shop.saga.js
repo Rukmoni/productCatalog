@@ -6,7 +6,7 @@ import * as Actions from '../shop/shop.types';
  * Fetch WishList from API saga REST API
  * @returns {IterableIterator<*>}
  */
-function* getProductListSaga({payload}) {
+export function* getProductListSaga() {
     
     try {
       const products = yield call(fetchDataFromApi);
